@@ -38,15 +38,15 @@ print("\nData set found\n") # replace with function call that reads in data from
 commandpush(work2do) # call function to push commands to devices
 
 ### Definition of devices to be rebooted
-devicelist = ["10.50.0.91", "10.60.0.92", "10.70.0.93", "10.80.0.94"]
+dlist = ["10.50.0.91", "10.60.0.92", "10.70.0.93", "10.80.0.94"]
 print()
 print("Calling devicereboot... with using the ENUMERATE keyword to navigate the list")
-devicereboot(devicelist)
+devicereboot(dlist)
 
 print()
 
 ### Definition of devices to be rebooted
-mydevicelist = ["2.50.0.91", "3.60.0.92", "4.70.0.93", "5.80.0.94"]
+mydlist = ["2.50.0.91", "3.60.0.92", "4.70.0.93", "5.80.0.94"]
 print()
 print("Calling easydevicereboot... simpler FOR loop to navigate the list")
-easydevicereboot(mydevicelist)
+easydevicereboot(mydlist)
